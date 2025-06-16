@@ -1,0 +1,38 @@
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+  margin-top: 1.5rem;
+  border-radius: 1.5625rem;
+  border: 3px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(0px);
+
+  .left-content{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .fa-circle-dot {
+      color: green;
+    }
+
+    p{
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
+    li {
+      list-style: none;
+      padding: 0 1rem;
+    }
+  }
+}

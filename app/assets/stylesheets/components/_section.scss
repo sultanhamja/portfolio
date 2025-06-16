@@ -1,0 +1,26 @@
+.body-content{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap: 1.5rem;
+
+  .sec {
+    padding: 1rem;
+  }
+  .left {
+    border: 1px solid red;
+  }
+  .center{
+    border: 1px solid yellow;
+  }
+  .right{
+    border: 1px solid green;
+  }
+  .wrapper{
+    border-radius: 1.5625rem;
+  border: 3px solid rgba(255, 255, 255, 0.10);
+  background: rgba(255, 255, 255, 0.10);
+  backdrop-filter: blur(0px);
+  padding: 1rem;
+  margin: 1rem 0;
+  }
+}
