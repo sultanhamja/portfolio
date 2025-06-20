@@ -14,12 +14,6 @@
   }
 }
 
-.center {
-  h2 {
-    font-size: 1.75rem;
-  }
-}
-
 
 .flex {
   display: flex;
@@ -32,21 +26,24 @@
 .circle-wrapper {
   background-color: #FF531A;
   border-radius: 100%;
-  width: 3.5rem;
-  height: 3.5rem;
+  width: 3rem;
+  height: 3rem;
+}
+.circle-wrapper-light {
+  background-color: #2B1914;
+  border-radius: 100%;
+  width: 3rem;
+  height: 3rem;
+  color: #FF531A;
 }
 
 
 .fa-brands {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
 .fa-solid {
   font-size: 1.2rem;
-}
-
-svg {
-  color: white;
 }
 
 .top-skills {
@@ -61,8 +58,15 @@ svg {
 
 .about {
   padding: 1rem;
+
+  p{
+    font-weight: lighter;
+  }
 }
 
+.education {
+  margin-top: 1rem;
+}
 
 .socail-wrapper {
     background: rgba(45, 45, 45, 0.8);
